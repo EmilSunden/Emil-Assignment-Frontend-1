@@ -37,6 +37,7 @@ let headers = ['firstname', 'lastname', 'group', 'personality', 'discord'];
 
 function createTable() {
     const headerRowElement = document.createElement('tr');
+    headerRowElement.className = "glow"
     headers.forEach((headerValue) => {
         const headerElement = document.createElement('th');
         headerElement.textContent = headerValue;

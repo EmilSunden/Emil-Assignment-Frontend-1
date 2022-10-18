@@ -1,16 +1,21 @@
 #table, th, td {
+    table-layout: fixed;
+    width: 75%;
     margin-top: 10px;
-    border: 2px solid blueviolet;
+    border: 3px solid blueviolet;
     margin-left: auto;
     margin-right: auto;
     display: flexbox;
     font-size: large;
-    color: blueviolet;
+    color: rgb(156, 54, 74);
     
 }
 th {
     padding-left: 50px;
     padding-right: 50px;
+    font-size: 20px;
+    color:crimson;
+    box-shadow: 1px 1px; 
     
 }
 main {
@@ -27,4 +32,39 @@ body {
     height: auto;
     text-align: center;
     background-color:black
+}
+
+.glow {
+    font-size: 5px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+a {
+    color: red
+}
+
+a:hover {
+    color: hotpink;
+}
+
+#sorting-option {
+    color: #e60073;
+    background-color: darkgray;
+}
+
+.sort-button, .clear-button {
+    color: hotpink;
+    background-color: darkgray;
 }

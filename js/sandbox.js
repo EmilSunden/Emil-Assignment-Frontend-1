@@ -48,7 +48,7 @@ function createTable() {
     globalObject.forEach((obj) => {
         const rowElement = document.createElement('tr');
         table.appendChild(rowElement);
-        let anononymousLambda = ({firstname, lastname, group, personality, discord}) => ({firstname, lastname, group, personality, discord});
+        let anononymousLambda = ({firstname, lastname, group, personality, discord}) => ({firstname, lastname, group, personality, discord}); // I wanna shoutout Alex for this specific lambda function 👊
         let user = anononymousLambda(obj);
 
         Object.values(user).forEach((value) => {
@@ -99,24 +99,3 @@ function refreshTable() {
     } 
   };
   
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

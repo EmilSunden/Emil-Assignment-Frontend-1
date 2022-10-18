@@ -22,14 +22,15 @@ Step 2, run script: "npm start" in the terminal.
 
 # Problem Definition
 ```
-Step 1 use fetch (a way to send requests and get responses) to ultimately get data across the web 
-(in this case from the json files that are in a local map in the project, the pathway to the json files being: /data/dev/users.
-Step number 2: Use a higher order function to tell the computer to sort based on attribute.
-Step number 3: To check if the function works in the terminal/console, before beginning to get it up on the webpage.
-Step number 4: This step is the most difficult which is to get the data displayed on the webpage.
+1. The assignment at hand was to display json data on a local webpage (localhost). In order to do just that
+we first had to use fetch to obtain our locally placed json files. Fetch is like import but it's main use is externally, it is used for
+sending requests to a server which in turn comes with a response. 
+2. Figuring out HOW to display the json data on the webpage.
+3. In my case creating one function which displays the data, and one function that sorts that data alphabetically on each attribute I've chosen to
+use.
 
 The problem:
-The problem to be solved was to get the user-information we thought potent to create groups of people based on an attribute. 
+The problem to be solved was to get the user-information we thought potent to create groups of people, in my case based on an attribute. 
 The next question was: how do I go about solving the task.
 I began contemplating over the solution, and I came up with an idea. I wanted to sort people based on a certain attribute, using the sort method.
 The data that we've been working with, we got from multiple json files which are located in data/dev/users. 

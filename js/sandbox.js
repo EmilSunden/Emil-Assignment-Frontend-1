@@ -49,7 +49,7 @@ function createTable() {
         const rowElement = document.createElement('tr');
         table.appendChild(rowElement);
         let anononymousLambda = ({firstname, lastname, group, personality, discord}) => ({firstname, lastname, group, personality, discord}); // I wanna shoutout Alex for this specific lambda function 👊
-        let user = anononymousLambda(obj);
+        let user = anononymousLambda(obj); // for each object it handpicks these above properties and gets us the right values for each property
 
         Object.values(user).forEach((value) => {
             const cellElement =document.createElement('td');

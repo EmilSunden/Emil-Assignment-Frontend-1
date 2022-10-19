@@ -1,4 +1,16 @@
-# Download liveserver
+# IDE
+
+Download visual studio code.
+
+# Clone repo
+
+Click "Code" button above.
+Copy the link.
+Open a new terminal in visual studio code and enter:
+
+- git clone (url)
+
+# Download liveserver extension
 
 Download liveserver extension from extension tab.
 Right click index.html and click "Open with live server"
